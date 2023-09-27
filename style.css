@@ -1,9 +1,37 @@
 body {
-    background-color:grey;
+    background-color: gray;
 }
 li {
     font-family:"Verdana","Times New Roman", sans-serif;
 }
 h1 {
-    color:slateblue
+    color: orangered;
+}
+.header {
+    background-color: darkgray;
+    border: 3px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+
+}
+.recipe-container {
+    background-color:darkgray;
+    border: 3px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    margin-top: 15px;
+    padding: 20px;
+}
+.recipes {
+    border: 3px solid whitesmoke;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
